@@ -1,0 +1,6 @@
+6,7c6,7
+< 	add new line
+< 	return 0;
+---
+> 	added new line
+> 	return (1);

@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Node	create_list.c	/^struct Node {$/;"	s	file:
+Node	delete_node.c	/^struct Node {$/;"	s	file:
+Node	insert_front.c	/^struct Node {$/;"	s	file:
+Node	insert_tail.c	/^struct Node {$/;"	s	file:
+Node	reverse_list.c	/^struct Node {$/;"	s	file:
+d	create_list.c	/^	int d;$/;"	m	struct:Node	file:
+d	delete_node.c	/^	int d;$/;"	m	struct:Node	file:
+d	insert_front.c	/^	int d;$/;"	m	struct:Node	file:
+d	insert_tail.c	/^	int d;$/;"	m	struct:Node	file:
+d	reverse_list.c	/^	int d;$/;"	m	struct:Node	file:
+deleteNode	delete_node.c	/^struct Node *deleteNode(struct Node *list, int data)$/;"	f
+insertFront	delete_node.c	/^struct Node *insertFront(struct Node *l, int data)$/;"	f
+insertFront	insert_front.c	/^struct Node *insertFront(struct Node *l, int data)$/;"	f
+insertToFront	create_list.c	/^struct Node *insertToFront(struct Node *l, int data)$/;"	f
+insertToFront	insert_tail.c	/^struct Node *insertToFront(struct Node *l, int data)$/;"	f
+insertToFront	reverse_list.c	/^struct Node *insertToFront(struct Node *list, int data)$/;"	f
+insertToTail	insert_tail.c	/^int insertToTail(struct Node *list, int data){$/;"	f
+main	create_list.c	/^int main()$/;"	f
+main	delete_node.c	/^int main(int argc, char *argv[])$/;"	f
+main	insert_front.c	/^int main(int argc, char *argv[])$/;"	f
+main	insert_tail.c	/^int main(int argc, char *argv[])$/;"	f
+main	reverse_list.c	/^int main()$/;"	f
+next	create_list.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	delete_node.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	insert_front.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	insert_tail.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	reverse_list.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+printList	create_list.c	/^int printList(struct Node *l)$/;"	f
+printList	delete_node.c	/^int printList(struct Node *l)$/;"	f
+printList	insert_front.c	/^int printList(struct Node *l)$/;"	f
+printList	insert_tail.c	/^int printList(struct Node *l)$/;"	f
+printList	reverse_list.c	/^int printList(struct Node *l)$/;"	f
+reverseList	reverse_list.c	/^struct Node *reverseList(struct Node *list)$/;"	f
+traverseList	insert_tail.c	/^struct Node *traverseList(struct Node *node)$/;"	f
